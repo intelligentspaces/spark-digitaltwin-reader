@@ -1,0 +1,71 @@
+{
+  "value": [
+    {
+      "$dtId": "Comp1",
+      "dt": {
+        "$dtId": "Comp1",
+        "$etag": "W/\"f51fc5bf-1b79-40ad-a88c-72220a0d3246\"",
+        "logo": "intelligent-spaces-1.svg",
+        "name": "Company 1",
+        "primaryCssFile": "/css/themes/baseTheme.css",
+        "$metadata": {
+          "$model": "dtmi:elastacloud:rec_3_3:extensions:Company;3",
+          "logo": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "name": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "primaryCssFile": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          }
+        }
+      }
+    },
+    {
+      "$dtId": "Comp2",
+      "dt": {
+        "$dtId": "Comp2",
+        "$etag": "W/\"f51fc5bf-1b79-40ad-a88c-72220a0d3246\"",
+        "logo": "intelligent-spaces-2.svg",
+        "name": "Company 2",
+        "primaryCssFile": "/css/themes/baseTheme.css",
+        "$metadata": {
+          "$model": "dtmi:elastacloud:rec_3_3:extensions:Company;3",
+          "logo": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "name": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "primaryCssFile": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          }
+        }
+      }
+    },
+    {
+      "$dtId": "Comp3",
+      "dt": {
+        "$dtId": "Comp3",
+        "$etag": "W/\"f51fc5bf-1b79-40ad-a88c-72220a0d3246\"",
+        "logo": "intelligent-spaces-1.svg",
+        "name": "Company 3",
+        "primaryCssFile": "/css/themes/baseTheme.css",
+        "$metadata": {
+          "$model": "dtmi:elastacloud:rec_3_3:extensions:Company;3",
+          "logo": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "name": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          },
+          "primaryCssFile": {
+            "lastUpdateTime": "2022-01-18T12:47:55.1763280Z"
+          }
+        }
+      }
+    }
+  ],
+  "continuationToken": null
+}

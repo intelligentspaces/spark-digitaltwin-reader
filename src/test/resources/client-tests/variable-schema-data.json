@@ -1,0 +1,35 @@
+{
+  "value": [
+    {
+      "$dtId": "Comp1",
+      "dt": {
+        "$dtId": "Comp1",
+        "data": {
+          "temperature": 20.13
+        }
+      }
+    },
+    {
+      "$dtId": "Comp2",
+      "dt": {
+        "$dtId": "Comp2",
+        "data": {
+          "co2": 500.556,
+          "pressure": "GOOD"
+        }
+      }
+    },
+    {
+      "$dtId": "Comp3",
+      "dt": {
+        "$dtId": "Comp3",
+        "data": {
+          "temperature": 20.13,
+          "co2": 800.1,
+          "pressure": 1019
+        }
+      }
+    }
+  ],
+  "continuationToken": null
+}

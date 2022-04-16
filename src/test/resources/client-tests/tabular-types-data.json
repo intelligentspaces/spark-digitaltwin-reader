@@ -1,0 +1,15 @@
+{
+  "value": [
+    {
+      "col1": "A simple string",
+      "col2": "2022-03-20T17:12:45Z",
+      "col3": 1234567890,
+      "col4": 123.456,
+      "col5": true,
+      "col6": {
+        "col6_1": false
+      }
+    }
+  ],
+  "continuationToken": null
+}

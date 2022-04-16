@@ -1,0 +1,26 @@
+{
+  "value": [
+    {
+      "$dtId": "Comp1",
+      "name": "Company 1",
+      "logo": "intelligent-spaces-1.svg",
+      "primaryCssFile": "/css/themes/baseTheme.css",
+      "nameLastUpdated": "2022-01-22T14:12:03.0310000Z"
+    },
+    {
+      "$dtId": "Comp2",
+      "name": "Company 2",
+      "logo": "intelligent-spaces-2.svg",
+      "primaryCssFile": "/css/themes/baseTheme.css",
+      "nameLastUpdated": "2022-01-22T14:12:03.0310000Z"
+    },
+    {
+      "$dtId": "Comp3",
+      "name": "Company 3",
+      "logo": "intelligent-spaces-3.svg",
+      "primaryCssFile": "/css/themes/baseTheme.css",
+      "nameLastUpdated": "2022-01-22T14:12:03.0310000Z"
+    }
+  ],
+  "continuationToken": null
+}

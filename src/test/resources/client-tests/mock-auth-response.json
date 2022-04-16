@@ -1,0 +1,9 @@
+{
+  "token_type": "Bearer",
+  "expires_in": "3599",
+  "ext_expires_in": "3599",
+  "expires_on": "1647859433",
+  "not_before": "1647859433",
+  "resource": "0b07f429-9f4b-4714-9392-cc5e8e80c8b0",
+  "access_token": "some_very_very_long_token_value"
+}
