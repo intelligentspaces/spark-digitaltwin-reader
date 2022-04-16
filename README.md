@@ -1,6 +1,6 @@
 # Azure Digital Twin - Apache Speak Reader
 
-[![spark-digitaltwin-reader-ci](https://github.com/intelligentspaces/spark-digitaltwin-reader/actions/workflows/spark-reader-ci.yml/badge.svg?branch=main)](https://github.com/intelligentspaces/spark-digitaltwin-reader/actions/workflows/spark-reader-ci.yml)
+[![spark-digitaltwin-reader-ci](https://github.com/intelligentspaces/spark-digitaltwin-reader/actions/workflows/spark-reader-ci.yml/badge.svg)](https://github.com/intelligentspaces/spark-digitaltwin-reader/actions/workflows/spark-reader-ci.yml)
 
 An [Apache Spark](https://spark.apache.org) data source for [Azure Digital Twin](https://azure.microsoft.com/services/digital-twins/).
 
