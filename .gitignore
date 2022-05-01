@@ -206,3 +206,4 @@ spark-warehouse/
 
 
 # End of https://www.toptal.com/developers/gitignore/api/scala,spark,intellij+all,sbt
+.bsp/
