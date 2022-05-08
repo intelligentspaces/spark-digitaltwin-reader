@@ -51,8 +51,8 @@ assembly / assemblyJarName := s"${name.value}_uber_${scalaBinaryVersion.value}-$
 // Testing dependencies
 ThisBuild / libraryDependencies ++= Seq(
   "io.netty" % "netty-transport-native-epoll" % "4.1.68.Final" % Test, // Added to work around issue in IntelliJ but should not be required for deployment
-  "org.scalactic" %% "scalactic" % "3.2.11",
-  "org.scalatest" %% "scalatest" % "3.2.11" % Test,
+  "org.scalactic" %% "scalactic" % "3.2.12",
+  "org.scalatest" %% "scalatest" % "3.2.12" % Test,
   "org.mockito" %% "mockito-scala" % "1.17.5" % Test
 )
 
