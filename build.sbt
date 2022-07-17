@@ -23,7 +23,7 @@ lazy val root = (project in file("."))
 val sparkVersion = settingKey[String]("Spark version")
 
 name := "spark-azure-digital-twin"
-version := "0.1.0"
+version := "0.2.0-SNAPSHOT"
 organization := "com.elastacloud"
 description := "Spark data source for Azure Digital Twin"
 homepage := Some(url("https://github.com/intelligentspaces/spark-digitaltwin-reader"))
