@@ -1,3 +1,19 @@
+/*
+ * Copyright 2022 Elastacloud Ltd
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 import sbt.url
 
 lazy val root = (project in file("."))
@@ -10,7 +26,7 @@ name := "spark-azure-digital-twin"
 version := "0.1.0-SNAPSHOT"
 organization := "com.elastacloud"
 description := "Spark data source for Azure Digital Twin"
-homepage := Some(url("https://www.elastacloud.com"))
+homepage := Some(url("https://github.com/intelligentspaces/spark-digitaltwin-reader"))
 developers ++= List(
   Developer(id = "dazfuller", name = "Darren Fuller", email = "darren@elastacloud.com", url = url("https://github.com/dazfuller"))
 )
@@ -53,7 +69,7 @@ ThisBuild / libraryDependencies ++= Seq(
   "io.netty" % "netty-transport-native-epoll" % "4.1.68.Final" % Test, // Added to work around issue in IntelliJ but should not be required for deployment
   "org.scalactic" %% "scalactic" % "3.2.12",
   "org.scalatest" %% "scalatest" % "3.2.12" % Test,
-  "org.mockito" %% "mockito-scala" % "1.17.5" % Test
+  "org.mockito" %% "mockito-scala" % "1.17.7" % Test
 )
 
 // Code coverage configuration
@@ -64,7 +80,7 @@ coverageFailOnMinimum := false
 coverageHighlighting := true
 
 val commonSettings = Seq(
-  sparkVersion := System.getProperty("sparkVersion", "3.2.1"),
+  sparkVersion := System.getProperty("sparkVersion", "3.3.0"),
   scalaVersion := {
     if (sparkVersion.value >= "3.2.0") {
       "2.12.14"
