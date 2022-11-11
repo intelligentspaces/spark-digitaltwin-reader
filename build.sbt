@@ -67,9 +67,9 @@ assembly / assemblyJarName := s"${name.value}_uber_${scalaBinaryVersion.value}-$
 // Testing dependencies
 ThisBuild / libraryDependencies ++= Seq(
   "io.netty" % "netty-transport-native-epoll" % "4.1.68.Final" % Test, // Added to work around issue in IntelliJ but should not be required for deployment
-  "org.scalactic" %% "scalactic" % "3.2.12",
-  "org.scalatest" %% "scalatest" % "3.2.12" % Test,
-  "org.mockito" %% "mockito-scala" % "1.17.7" % Test
+  "org.scalactic" %% "scalactic" % "3.2.14",
+  "org.scalatest" %% "scalatest" % "3.2.14" % Test,
+  "org.mockito" %% "mockito-scala" % "1.17.12" % Test
 )
 
 // Code coverage configuration
@@ -80,7 +80,7 @@ coverageFailOnMinimum := false
 coverageHighlighting := true
 
 val commonSettings = Seq(
-  sparkVersion := System.getProperty("sparkVersion", "3.3.0"),
+  sparkVersion := System.getProperty("sparkVersion", "3.3.1"),
   scalaVersion := {
     if (sparkVersion.value >= "3.2.0") {
       "2.12.14"
